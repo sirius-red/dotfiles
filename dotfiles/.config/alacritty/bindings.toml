@@ -1,0 +1,28 @@
+[keyboard]
+bindings = [
+	{ key = "C", mods = "Control", action = "Copy" },
+	{ key = "V", mods = "Control", action = "Paste" },
+	{ key = "NumpadAdd", mods = "Control", action = "IncreaseFontSize" },
+	{ key = "NumpadSubtract", mods = "Control", action = "DecreaseFontSize" },
+	{ key = "0", mods = "Control", action = "ResetFontSize" },
+	{ key = "Numpad0", mods = "Control", action = "ResetFontSize" },
+	{ key = "PageUp", action = "ScrollPageUp" },
+	{ key = "PageDown", action = "ScrollPageDown" },
+	{ key = "ArrowUp", mods = "Control", action = "ScrollLineUp" },
+	{ key = "ArrowDown", mods = "Control", action = "ScrollLineDown" },
+	{ key = "Home", mods = "Control", action = "ScrollToTop" },
+	{ key = "End", mods = "Control", action = "ScrollToBottom" },
+	{ key = "L", mods = "Control|Super", action = "ClearHistory" },
+	{ key = "W", mods = "Control", action = "Quit" },
+	{ key = "N", mods = "Control", action = "CreateNewWindow" },
+	{ key = "F11", action = "ToggleFullscreen" },
+	{ key = "F", mods = "Control", action = "SearchForward" },
+	{ key = "F", mods = "Control|Shift", action = "SearchBackward" },
+]
+
+[mouse]
+bindings = [
+	{ mouse = "Left", mods = "Control|Shift", action = "ExpandSelection" },
+	{ mouse = "Right", mods = "Control", action = "Paste" },
+	{ mouse = "Right", action = "Copy" },
+]

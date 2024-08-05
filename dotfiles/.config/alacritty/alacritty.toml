@@ -1,0 +1,22 @@
+import = [
+	"~/.config/alacritty/color-scheme.toml",
+	"~/.config/alacritty/bindings.toml",
+]
+shell = "/usr/bin/zsh"
+
+[window]
+dimensions = { columns = 100, lines = 24 }
+padding = { x = 8, y = 8 }
+opacity = 0.92
+
+[font]
+size = 14
+offset = { x = 1, y = 8 }
+normal = { family = "FiraCode Nerd Font" }
+
+[cursor]
+style = { blinking = "On" }
+
+[mouse]
+hide_when_typing = true
+
